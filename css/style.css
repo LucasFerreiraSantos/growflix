@@ -2,7 +2,7 @@
 :root{
     --primary-color: #fff;
     --secondary-color: #000;
-    --tertiary-color: #757562;
+    --tertiary-color: #303030;
     --quaternary-color: #E50914;
     --quinary-color: #b6060f;
     --senario-color: #515C6F;
@@ -58,4 +58,15 @@ html, body{
 /* MAIN */
 .border-color{
     color: var(--senario-color);
+}
+
+.accordion{
+    width: 800px;
+}
+
+.accordion-color{
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+
+    font-size: 20px;
 }
