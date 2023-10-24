@@ -61,12 +61,30 @@ html, body{
 }
 
 .accordion{
-    width: 800px;
+    width: 100%;
+    max-width: 850px;
+    border: none;
 }
 
 .accordion-color{
-    background-color: var(--tertiary-color);
-    color: var(--primary-color);
+    background-color: var(--tertiary-color) !important;
+    color: var(--primary-color) !important;
+    cursor: pointer;
 
     font-size: 20px;
 }
+
+.accordion-button{
+    height: 80px !important;
+    font-size: 25px;
+}
+
+.accordion-button::after{
+    background-image: url(../img/svg/add.svg);
+}
+
+.accordion-button:focus{
+    outline: none !important;
+}
+
+/* PAGE HOME */
