@@ -5,6 +5,7 @@
     --tertiary-color: #757562;
     --quaternary-color: #E50914;
     --quinary-color: #b6060f;
+    --senario-color: #515C6F;
 }
 
 /* GENERAL SETTINGS  */
@@ -52,4 +53,9 @@ html, body{
 }
 .button-initial:hover{
     background-color: var(--quinary-color);
+}
+
+/* MAIN */
+.border-color{
+    color: var(--senario-color);
 }
