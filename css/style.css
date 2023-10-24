@@ -6,6 +6,7 @@
     --quaternary-color: #E50914;
     --quinary-color: #b6060f;
     --senario-color: #515C6F;
+    --septenary-color: #C1C3D0;
 }
 
 /* GENERAL SETTINGS  */
@@ -87,7 +88,9 @@ html, body{
     outline: none !important;
 }
 
-/* PAGE HOME */
+/* ------------------------ PAGE HOME ----------------------- */
+
+/* HEADER HOME */
 .container-headerHome{
     background-image: url(../img/growcast-01.png);
     background-size: cover;
@@ -103,3 +106,22 @@ html, body{
 .text-header-page2{
     margin-top: 300px;
 }
+
+.navbar-header-page2 a{
+    text-decoration: none;
+    color: var(--senario-color);
+    cursor: pointer;
+
+    transition: 0.5s;
+}
+
+.navbar-header-page2 a:hover{
+    color: var(--septenary-color);
+}
+
+.navbar-header-page2 :first-child {
+    color: var(--primary-color);
+}
+
+/* MAIN HOME */
+
