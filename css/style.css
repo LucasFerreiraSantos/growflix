@@ -88,3 +88,18 @@ html, body{
 }
 
 /* PAGE HOME */
+.container-headerHome{
+    background-image: url(../img/growcast-01.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 750px;
+}
+
+.image-play{
+    width: 20px;
+}
+
+.text-header-page2{
+    margin-top: 300px;
+}
