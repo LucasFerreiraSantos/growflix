@@ -7,6 +7,8 @@
     --quinary-color: #b6060f;
     --senario-color: #515C6F;
     --septenary-color: #C1C3D0;
+    --octonary-color: #FF8534;
+    --nonary-color: #757575;
 }
 
 /* GENERAL SETTINGS  */
@@ -88,6 +90,12 @@ html, body{
     outline: none !important;
 }
 
+/* FOOTER */
+footer{
+    font-size: 15px;
+    color: var(--nonary-color) !important;
+}
+
 /* ------------------------ PAGE HOME ----------------------- */
 
 /* HEADER HOME */
@@ -124,4 +132,8 @@ html, body{
 }
 
 /* MAIN HOME */
-
+.text-title-main-page2 section a:hover{
+    cursor: pointer;
+    transition: 0.5s;
+    color: var(--octonary-color) !important;
+}
