@@ -1,5 +1,5 @@
-const videos = [
-  growcast = [
+const videos = [{
+  growcast: [
     {
       img: "https://img.youtube.com/vi/aJ-HZuLcKeA/sddefault.jpg",
       title: "Growcast #00 - Conheça a Growdev",
@@ -51,8 +51,10 @@ const videos = [
       link: "https://youtu.be/dfDgs0Ive2Q",
     }
   ],
+},
 
-  webinarFlutter = [
+{
+  webinarFlutter: [
     {
       img: "https://img.youtube.com/vi/WKbLXuP9S-c/sddefault.jpg",
       title: "Webinar - Recriando a interfase do Linkedin com Flutter",
@@ -79,8 +81,10 @@ const videos = [
       link: "https://www.youtube.com/embed/L1pKoMC6hWk",
     },
   ],
+},
 
-  jornadaUXUI = [
+{
+  jornadaUXUI: [
     {
       img: "https://img.youtube.com/vi/FiZMowbaiJA/sddefault.jpg",
       title: "Live #5 Jornada UX/UI: O UX/UI Design é para todos?",
@@ -108,8 +112,10 @@ const videos = [
       link: "https://www.youtube.com/embed/-26aqPtgoEY"
     },
   ],
-  
-  diversos = [
+},
+
+{
+  diversos: [
     {
       img: "https://img.youtube.com/vi/QsuhYgsSYQo/sddefault.jpg",
       title: "Célula de talentos - Uma solução Growdev",
@@ -136,4 +142,4 @@ const videos = [
       link: "https://www.youtube.com/embed/6sZPsqNjeek",
     },
   ],
-];
+}];

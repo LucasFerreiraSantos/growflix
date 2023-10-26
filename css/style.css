@@ -137,3 +137,19 @@ footer{
     transition: 0.5s;
     color: var(--octonary-color) !important;
 }
+
+.image-cards{
+    width: 60px;
+}
+
+.card-body{
+    display: none !important;
+}
+
+.image-thumbnail{
+    width: 300px;
+
+    transition: 0.2s;
+}.image-thumbnail:hover{
+    scale: 1.2;
+}
