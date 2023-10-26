@@ -1,4 +1,4 @@
-const videos = [{
+export const videos = [{
   growcast: [
     {
       img: "https://img.youtube.com/vi/aJ-HZuLcKeA/sddefault.jpg",

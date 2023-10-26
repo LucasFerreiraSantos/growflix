@@ -142,10 +142,6 @@ footer{
     width: 60px;
 }
 
-.card-body{
-    display: none !important;
-}
-
 .image-thumbnail{
     width: 300px;
 
