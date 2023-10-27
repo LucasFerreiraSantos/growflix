@@ -1,4 +1,5 @@
 import { videos } from "./data.js";
+import { openVideo } from "./modal.js";
 
 const categoryGrowcast = document.getElementById("categoryGrowcast")
 const categoryWebinarFlutter = document.getElementById("categoryWebinarFlutter")
@@ -13,14 +14,19 @@ function createCardsGrowcast(){
         cardVideo.classList.add("card")
         cardVideo.classList.add("text-center")
         cardVideo.classList.add("container-card")
+
         
         cardVideo.innerHTML = `
                 <div>
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
-                <div class="card-body text-light d-flex align-items-center">
-                    <img class="image-cards" src="./img/svg/playtriangular.svg" alt="play triangular">
-                    <span class="ms-3 ">${video.title}</span>
+                <div id="container-text">
+                    <div class="card-body text-light d-flex align-items-center">
+                        <button onclick="openVideo()" class="playVideo" type="button">
+                            <img class="image-cards" src="./img/svg/playtriangular.svg" alt="play triangular">
+                        </button>
+                        <span class="ms-3 ">${video.title}</span>
+                    </div>
                 </div>
         `
         categoryGrowcast.appendChild(cardVideo)
@@ -93,4 +99,4 @@ function createCardsDiversos(){
     });
 }
 
-export { createCardsGrowcast, createCardsWebinar, createCardsUIUX, createCardsDiversos }
+export { createCardsGrowcast, createCardsWebinar, createCardsUIUX, createCardsDiversos, openVideo }

@@ -144,8 +144,12 @@ footer{
 
 .image-thumbnail{
     width: 300px;
-
-    transition: 0.2s;
-}.image-thumbnail:hover{
-    scale: 1.2;
 }
+
+.container-card:hover{
+    scale: 1.2;
+    z-index: 1;
+    transition: 0.3s;
+}
+
+/* MODAL */
