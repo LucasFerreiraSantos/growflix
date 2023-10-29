@@ -18,11 +18,11 @@ function createCardsGrowcast(){
                 <div>
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
-                <div class="card-body text-light d-flex align-items-center">
+                <div id="hoverText" class="d-none">
                     <a>
                         <img class="image-cards" id="playGrowcast" src="./img/svg/playtriangular.svg" alt="play triangular">
                     </a>
-                    <span class="ms-3 ">${video.title}</span>
+                    <span class="ms-3">${video.title}</span>
                 </div>
         `
         categoryGrowcast.appendChild(cardVideo)
@@ -42,7 +42,7 @@ function createCardsWebinar(){
                 <div>
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
-                <div class="card-body text-light d-flex align-items-center">
+                <div id="hoverText" class="d-none">
                     <a>
                         <img class="image-cards" id="playWebinar" src="./img/svg/playtriangular.svg" alt="play triangular">
                     </a>
@@ -66,7 +66,7 @@ function createCardsUIUX(){
                 <div>
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
-                <div class="card-body text-light d-flex align-items-center">
+                <div id="hoverText" class="d-none">
                     <a>
                         <img class="image-cards" id="playUXUI" src="./img/svg/playtriangular.svg" alt="play triangular">
                     </a>
@@ -90,7 +90,7 @@ function createCardsDiversos(){
                 <div>
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
-                <div class="card-body text-light d-flex align-items-center">
+                <div id="hoverText" class="d-none">
                     <a>
                         <img class="image-cards" id="playDiversos" src="./img/svg/playtriangular.svg" alt="play triangular">
                     </a>

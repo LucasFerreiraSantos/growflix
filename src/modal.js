@@ -106,4 +106,19 @@ function showModalDiversos(){
     });
 }
 
+const btnHeaderHome = document.getElementById("btnHeaderHome")
+btnHeaderHome.addEventListener("click", (e) => {
+    e.preventDefault()
+    const arrayHeaderHome = videos[0].growcast
+        openVideo()
+        const videoModal = document.createElement("div");
+        videoModal.classList.add("video_modal")
+
+        videoModal.innerHTML = `
+        <iframe width="95%" height="800" src="${arrayHeaderHome[1].link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        `;
+
+        containerModal.appendChild(videoModal);
+})
+
 export { showModalGrowcast, showModalWebinar, showModalUXUI, showModalDiversos }
