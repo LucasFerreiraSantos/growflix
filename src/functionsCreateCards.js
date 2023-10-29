@@ -18,13 +18,11 @@ function createCardsGrowcast(){
                 <div>
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
-                <div id="container-text">
-                    <div class="card-body text-light d-flex align-items-center">
-                        <a>
-                            <img class="image-cards" id="playVideo" src="./img/svg/playtriangular.svg" alt="play triangular">
-                        </a>
-                        <span class="ms-3 ">${video.title}</span>
-                    </div>
+                <div class="card-body text-light d-flex align-items-center">
+                    <a>
+                        <img class="image-cards" id="playGrowcast" src="./img/svg/playtriangular.svg" alt="play triangular">
+                    </a>
+                    <span class="ms-3 ">${video.title}</span>
                 </div>
         `
         categoryGrowcast.appendChild(cardVideo)
@@ -45,7 +43,9 @@ function createCardsWebinar(){
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
                 <div class="card-body text-light d-flex align-items-center">
-                    <img class="image-cards" src="./img/svg/playtriangular.svg" alt="play triangular">
+                    <a>
+                        <img class="image-cards" id="playWebinar" src="./img/svg/playtriangular.svg" alt="play triangular">
+                    </a>
                     <span class="ms-3 ">${video.title}</span>
                 </div>
         `
@@ -67,7 +67,9 @@ function createCardsUIUX(){
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
                 <div class="card-body text-light d-flex align-items-center">
-                    <img class="image-cards" src="./img/svg/playtriangular.svg" alt="play triangular">
+                    <a>
+                        <img class="image-cards" id="playUXUI" src="./img/svg/playtriangular.svg" alt="play triangular">
+                    </a>
                     <span class="ms-3 ">${video.title}</span>
                 </div>
         `
@@ -89,7 +91,9 @@ function createCardsDiversos(){
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
                 <div class="card-body text-light d-flex align-items-center">
-                    <img class="image-cards" src="./img/svg/playtriangular.svg" alt="play triangular">
+                    <a>
+                        <img class="image-cards" id="playDiversos" src="./img/svg/playtriangular.svg" alt="play triangular">
+                    </a>
                     <span class="ms-3 ">${video.title}</span>
                 </div>
         `

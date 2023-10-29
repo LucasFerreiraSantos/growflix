@@ -1,11 +1,11 @@
-import { videos } from "./data.js";
 import { createCardsGrowcast, createCardsWebinar, createCardsUIUX, createCardsDiversos } from "./functionsCreateCards.js";
-import { showModal } from "./modal.js";
-
-console.log(videos)
+import { showModalGrowcast, showModalWebinar, showModalUXUI, showModalDiversos } from "./modal.js";
 
 createCardsGrowcast()
 createCardsWebinar()
 createCardsUIUX()
 createCardsDiversos()
-showModal()
+showModalGrowcast()
+showModalWebinar()
+showModalUXUI()
+showModalDiversos()
