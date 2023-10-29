@@ -6,28 +6,31 @@ const containerModal = document.getElementById("container-modal")
 
 function openVideo(){
     myModalAtive.show()
+    document.body.style.overflowY = "hidden"
     containerModal.innerHTML = ""
 }
 
 function showModal(){
-    const cardSelect = videos[0].growcast
-    const playVideo = document.querySelectorAll('.playVideo')
+    const arrayGrowcast = videos[0].growcast
+    const playVideo = document.querySelectorAll("#playVideo")
     const arrayPlayVideos = [...playVideo]
 
     // BUTTON SELECT
     playVideo.forEach((card) => {
         card.addEventListener('click', (e) => {
+            openVideo()
+            const cardClick = e.target;
+            const index = arrayPlayVideos.findIndex(card => card === cardClick)
 
-            const cardClicado = e.target;
-            const index = arrayPlayVideos.findIndex(card => card === cardClicado)
-            console.log(index)
             const videoModal = document.createElement("div");
             videoModal.classList.add("video_modal")
 
             videoModal.innerHTML = `
-                    <h1>Deu certo</h1>
-                `;
-            containerModal.appendChild(playVideo);
+            <iframe width="95%" height="800" src="${arrayGrowcast[index].link}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            `;
+            console.log(videoModal)
+
+            containerModal.appendChild(videoModal);
         });
     });
 }

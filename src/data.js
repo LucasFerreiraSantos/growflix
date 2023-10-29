@@ -3,52 +3,52 @@ export const videos = [{
     {
       img: "https://img.youtube.com/vi/aJ-HZuLcKeA/sddefault.jpg",
       title: "Growcast #00 - Conheça a Growdev",
-      link: "https://youtu.be/aJ-HZuLcKeA",
+      link: "https://www.youtube.com/embed/aJ-HZuLcKeA?si=R45UxtVdZRdFSHuc",
     },
     {
       img: "https://img.youtube.com/vi/7OWT3lfHYvE/sddefault.jpg",
       title: "Growcast #01 - As profissões do futuro",
-      link: "https://youtu.be/7OWT3lfHYvE",
+      link: "https://www.youtube.com/embed/7OWT3lfHYvE?si=jVKFKxSIBLMAiYu6",
     },
     {
       img: "https://img.youtube.com/vi/ci1eQGPK89o/sddefault.jpg",
       title: "Growcast #02 - Como seguir a carreira internacional?",
-      link: "https://youtu.be/ci1eQGPK89o",
+      link: "https://www.youtube.com/embed/ci1eQGPK89o?si=wjQ34ByQsQxpj0Ji",
     },
     {
       img: "https://img.youtube.com/vi/WM7pGG7OicQ/sddefault.jpg",
       title: "Growcast #03 - Superando os desafios da carreira de Dev!",
-      link: "https://youtu.be/WM7pGG7OicQ",
+      link: "https://www.youtube.com/embed/WM7pGG7OicQ?si=hLPAqHT-jdG7EBNN",
     },
     {
       img: "https://img.youtube.com/vi/2c8VOBZ160Y/sddefault.jpg",
       title: "Growcast #04 - Agile Master: tudo sobre a profissão!",
-      link: "https://youtu.be/2c8VOBZ160Y",
+      link: "https://www.youtube.com/embed/2c8VOBZ160Y?si=g66iF3p8NKneWGKQ",
     },
     {
       img: "https://img.youtube.com/vi/mxnEm03cYPc/sddefault.jpg",
       title: "Growcast #05 - Como iniciar na carreira em Desenvolvimento de Softwares?",
-      link: "https://youtu.be/mxnEm03cYPc",
+      link: "https://www.youtube.com/embed/mxnEm03cYPc?si=AhioMXUR6KYvbrqY",
     },
     {
       img: "https://img.youtube.com/vi/m7DyR07KrOE/sddefault.jpg",
       title: "Growcast #06 - Mulheres e inclusão na tecnologia",
-      link: "https://youtu.be/m7DyR07KrOE",
+      link: "https://www.youtube.com/embed/m7DyR07KrOE?si=Cl0azK_rknRqTWF7",
     },
     {
       img: "https://img.youtube.com/vi/vW8G9KPwRL0/sddefault.jpg",
       title: "Growcast #07 - Desenvolvimento profissionais na área de TI",
-      link: "https://youtu.be/vW8G9KPwRL0",
+      link: "https://www.youtube.com/embed/vW8G9KPwRL0?si=hL0MR3uGHbw_ubwa",
     },
     {
       img: "https://img.youtube.com/vi/_Ut2KqAqPyk/sddefault.jpg",
       title: "Growcast #08 - A solução que está transformando o mercado de TI no Brasil",
-      link: "https://youtu.be/_Ut2KqAqPyk",
+      link: "https://www.youtube.com/embed/_Ut2KqAqPyk?si=CAX2mKQMr4UJ8xrg",
     },
     {
       img: "https://img.youtube.com/vi/dfDgs0Ive2Q/sddefault.jpg",
       title: "Growcast #09 - Acompanhe com quem realmente entende, tudo sobre o mercado de trabalho no mundo da TI",
-      link: "https://youtu.be/dfDgs0Ive2Q",
+      link: "https://www.youtube.com/embed/dfDgs0Ive2Q?si=NFv1pUx3m9XVE36p",
     }
   ],
 },

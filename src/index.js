@@ -4,8 +4,8 @@ import { showModal } from "./modal.js";
 
 console.log(videos)
 
-showModal()
 createCardsGrowcast()
 createCardsWebinar()
 createCardsUIUX()
 createCardsDiversos()
+showModal()

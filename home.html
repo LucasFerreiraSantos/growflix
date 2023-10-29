@@ -12,15 +12,16 @@
     <!-- MAIN SCRIPT -->
     <script src="./src/index.js" type="module" defer></script>
 </head>
-<body>
+<body class="overflow-x-hidden">
+  
     <!-- MODAL -->
     <div id="myModal" class="modal" tabindex="-1">
-      <div class="modal-dialog">
+      <div class="modal-dialog modal-dialog-centered modal-fullscreen">
         <div class="modal-content bg-transparent">
-          <div class="modal-header">
+          <div class="modal-header border-0">
             <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
           </div>
-          <div class="modal-body">
+          <div class="modal-body text-center">
             <div id="container-modal"></div>
           </div>
         </div>
@@ -34,10 +35,10 @@
               <img class="image-fluid p-4 image-logo" src="./img/svg/logo-growflix.svg" alt="image logo growflix">
               <div class="navbar-header-page2">
                 <a href="./index.html">Início</a>
-                <a href="#" class="ms-2">Growcast[episódios]</a>
-                <a href="#" class="ms-2">Webinar em Flutter</a>
-                <a href="#" class="ms-2">Jornada UX/UI</a>
-                <a href="#" class="ms-2">Diversos</a>
+                <a href="#container-growcast" class="ms-2">Growcast[episódios]</a>
+                <a href="#container-webinar" class="ms-2">Webinar em Flutter</a>
+                <a href="#container-UIUX" class="ms-2">Jornada UX/UI</a>
+                <a href="#container-diversos" class="ms-2">Diversos</a>
               </div>
             </div>
           </nav>
@@ -58,7 +59,7 @@
     <main class="container-fluid mt-5 mb-5 text-title-main-page2">
       <section class="container mb-5">
         <div class="row">
-          <a class="fw-bold fs-5 text-light text-decoration-none">Growcast [Episódios]</a>
+          <a id="container-growcast" class="fw-bold fs-5 text-light text-decoration-none">Growcast [Episódios]</a>
         </div>
         <div id="categoryGrowcast" class="row">
         </div>
@@ -66,21 +67,21 @@
 
       <section class="container">
         <div class="row">
-          <a class="fw-bold fs-5 text-light text-decoration-none">Webinar em Flutter</a>
+          <a id="container-webinar" class="fw-bold fs-5 text-light text-decoration-none">Webinar em Flutter</a>
         </div>
         <div id="categoryWebinarFlutter" class="row"></div>
       </section>
 
       <section class="container">
         <div class="row">
-          <a class="fw-bold fs-5 text-light text-decoration-none">Jornada UX/UI</a>
+          <a id="container-UIUX" class="fw-bold fs-5 text-light text-decoration-none">Jornada UX/UI</a>
         </div>
         <div id="categoryUIUX" class="row"></div>
       </section>
 
       <section class="container">
         <div class="row">
-          <a class="fw-bold fs-5 text-light text-decoration-none">Diversos</a>
+          <a id="container-diversos" class="fw-bold fs-5 text-light text-decoration-none">Diversos</a>
         </div>
         <div id="categoryDiversos" class="row"></div>
       </section>
@@ -101,7 +102,7 @@
           <div class="row lh-lg">
             <div class="col-3">
               <div class="col d-flex flex-column">
-                <a class="text-decoration-none text-secondary" href="#third-session">
+                <a class="text-decoration-none text-secondary" href="index.html">
                   <span>Perguntas frequentes</span>
                 </a>
                 <a class="text-decoration-none text-secondary" href="#">
