@@ -91,10 +91,12 @@ function createCardsDiversos(){
                     <img class="image-thumbnail card-img-top" src="${video.img}" alt="thumbnail">
                 </div>
                 <div id="hoverText" class="d-none">
-                    <a>
-                        <img class="image-cards" id="playDiversos" src="./img/svg/playtriangular.svg" alt="play triangular">
-                    </a>
-                    <span class="ms-3 ">${video.title}</span>
+                    <div class="d-flex g-1 justify-content-center align-items-center">
+                        <a>
+                            <img class="image-cards" id="playDiversos" src="./img/svg/playtriangular.svg" alt="play triangular">
+                        </a>
+                        <span class="ms-3 ">${video.title}</span>
+                    </div>
                 </div>
         `
         categoryDiversos.appendChild(cardVideo)

@@ -144,16 +144,25 @@ footer{
     width: 300px;
 }
 
+.container-card{
+    position: relative !important;
+}
+
 .container-card:hover{
-    scale: 1.1;
+    scale: 1.2;
     z-index: 1;
     transition: 0.3s;
 }
 
-#hoverText{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.container-card:hover #hoverText{
+    width: 315px;
+    display: block !important;
+    position: absolute !important;
+    transform: translate(0, 60px);
+    z-index: 1;
+    bottom: 0;
 
-    color: white;
+    background-color: var(--secondary-color);
+    font-size: 13px;
+    color: var(--primary-color);
 }
